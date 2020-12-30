@@ -1,0 +1,36 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vertial-text {
+
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space:nowrap;
+
+}
+
+.vertial-text-tb {
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(90deg);
+    white-space:nowrap;
+
+}
+
+
+.text-color-primary-crm {
+    color: #4C9E88;
+}
+
+.bg-color-primary-crm {
+    background-color: #4C9E88;
+}
